@@ -1,0 +1,595 @@
+/*Header section*/
+
+header{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+
+#logo{
+    margin-top: -130px;
+    margin-left: -50px;
+    height: 325px;
+    width: 40%;
+}
+
+#picon{
+font-size: 78px;
+color: white;
+float: right;
+margin-top: 40px;
+margin-right: 38%;
+}
+
+#login{
+    margin-right: 25%;
+ 
+}
+
+#signup{
+    cursor: pointer;
+    margin-right: 10%;
+}
+.buttons{
+        background-color: lightslategray;
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        height: 50px;
+        width: 10%;
+        text-align: center;
+        padding-top: 7px;
+        float: right;
+        margin-top: -140px;
+        border: none;
+}
+
+.buttons:hover{
+    background-color: rgb(218, 139, 66);
+    color: black;
+}
+
+/*Form*/  
+
+  .form-container {
+    max-width: 50px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(218, 139, 66);
+    float: right;
+    
+  }
+  #form {
+    display: none;
+    position: absolute;
+    right: 15px;
+    border: 3px solid rgb(218, 139, 66);
+    z-index: 9;
+  }
+  /* input fields */
+  .form-container input[type=text], .form-container input[type=number], .form-container input[type=email]{
+    width: 100%;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 20px;
+  }
+ 
+/*Menu Bar*/
+
+#navigationbar{
+    background-color: lightslategray;
+    overflow: hidden;
+    width: 100%;
+    margin-top: -4px;
+    position: absolute;
+}
+
+#navigationbar a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 9px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 3px;
+  }
+
+.menu:hover{
+    background-color: rgb(218, 139, 66);
+    transform: scale(1.1);
+}
+
+/*Home Page*/
+#home{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px;
+    
+}
+
+/*carousel*/
+.slide{
+  margin-left:20%;
+color: white;
+width: 55%;
+}
+
+.slideimages{
+    margin-left: 13%;
+    height: 200px;
+}
+
+
+/*Game Section*/
+#games{
+  background-color: black;
+  height: 900px;
+  width: 100%;
+}
+
+
+h4{
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px;
+  
+}
+
+h4:hover{
+  color: maroon;
+}
+
+.gms{
+  height:150px;
+  width:20%;
+  margin-left: 60px;
+  float: left;
+  color: rgb(218, 139, 66);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+/*Try Me Hover Effect*/
+
+.imagestry{
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.gms:hover .imagestry{
+  opacity: 0.3;
+}
+
+.gms:hover .middle{
+  opacity: 1;
+}
+
+.text{
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+#dandw{
+  margin-top: 200px;
+}
+
+#today{
+  text-align: center;
+}
+#todaygame{
+margin-top: 200px;
+}
+
+
+#g9{
+ margin-left: 40%;
+}
+
+/*About Us*/
+
+#aboutus{
+  background-color: black;
+  height: 300px;
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+
+#info{
+  color: lightslategray;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 12px;
+}
+
+#mgalogo{
+  background-color:rgb(199, 199, 199); opacity: 0.3;
+  width: 35%;
+  margin-left: 10px;
+}
+
+/*Contact us*/
+
+#contactus{
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  float: left;
+}
+
+/*Form*/
+
+.contuctform-container {
+  max-width: 350px;
+  width: 600px;
+  padding: 5px;
+  background-color: rgb(73, 73, 73);
+}
+  
+#form2 {
+  right: 15px;
+  border: 3px solid rgb(177, 175, 173);
+  z-index: 9;
+}
+
+/* input fields */
+.contuctform-container input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: rgb(177, 175, 173);
+}
+.contctform-container input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+}
+
+#send{
+  width: 50%;
+  color: black;
+  border: 2px  solid rgb(73, 73, 73);
+  background-color: rgb(177, 175, 173);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  word-spacing: 5px;
+}
+
+#contactdetails{
+  color: lightslategray;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  float: right;
+  margin-right: 40%;
+  margin-top: 5%;
+}
+
+#map{
+float: right;
+margin-right: 0.5%;
+margin-bottom: 0.5%;
+height: 380px;
+width: 300px;
+border:2px solid rgb(177, 175, 173);
+}
+
+
+/*Footer*/
+#footer{
+width: 100%;
+color: white;
+background-color: grey;
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 1px;
+}
+
+#btop{
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+}
+
+
+/*Tablet*/
+@media only screen and (min-width:321px) and (max-width: 768px){
+ header{
+ height: 140px;
+ } 
+
+ #logo{
+  width: 60%;
+  height: 310px;
+  margin-top: -130px;
+  float: left;
+ }
+#picon{
+ font-size: 40px;
+ margin-right:230px;
+ float: left;
+ margin-left: -100px;
+}
+
+#signup{
+  margin-right:4%;
+}
+
+.buttons{
+  font-size: 13px;
+  height: 10px;
+  margin-top: -50px;
+  padding-bottom: 30px;
+}
+
+.form-container{
+  width:200px;
+  height: 400px;
+  font-size: 12px;
+}
+.form-container input[type=text], .form-container input[type=number], .form-container input[type=email]{
+  width: 90%; 
+  height:3%;
+  font-size: 10px;
+}
+
+.menu{
+   float: none;
+   width: 100%;
+  
+  }
+ #home{
+   margin-top: 180px;
+   height: 220px;
+ }
+
+ .slide{
+   width: 60%;
+ }
+
+ .slideimages{
+   width: 230px;
+   height: 150px;
+
+ }
+
+ .gms{
+   float: left;
+   margin-top: 0px;
+ }
+
+.imagestry{
+  width: 100%;
+}
+
+p{
+  font-size: 12px;
+}
+
+.text{
+  font-size: 10px;
+  padding-bottom:80px ;
+}
+
+#dandw{
+  width: 100%;
+  float: right;
+  margin-top: -40px;
+}
+
+#todaygame{
+  width: 100%;
+  float: left;
+  margin-top: -40px;
+}
+
+#aboutus{
+  margin-top: -10px;
+  height: 220px;
+}
+
+#contactus{
+  height: 400px;
+}
+
+#map{
+  width: 30%;
+}
+
+.contuctform-container{
+  width:20%;
+  font-size: 13px;
+}
+
+.contuctform-container input[type=text]{
+height: 3px;
+width: 110px;
+font-size: 10px;
+}
+
+#contuctdetails{
+  float: right;
+ margin-top: -10px;
+  margin-right: 10%;
+}
+}
+
+/*Mobile*/
+
+@media only screen and (max-width:320px){
+  header{
+    height: 60px;
+  }
+  
+  #logo{
+    width: 200px;
+    height: 80px;
+    margin-top: -20px;
+
+  }
+
+  #picon{
+  display: none;
+  }
+
+  #navigationbar a{
+  height:12px;
+  font-size: 8px;
+  padding:0px;
+}
+
+  .menu{
+    float: none;
+    width: 100%;
+  
+   }
+   .buttons{
+     height: 10px;
+     width: 30px;
+     font-size: 8px;
+     margin-top: 20px;
+     padding:0px;
+    float: right;
+   
+   }
+
+   #signup{
+     margin-right: 3%;
+   }
+
+   .form-container{
+    width:150px;
+    height: 300px;
+    font-size: 8px;
+
+  
+   
+  }
+  .form-container input[type=text], .form-container input[type=number], .form-container input[type=email]{
+    width: 100%; 
+    height:3%;
+    font-size: 8px;
+    padding:10px
+  }
+
+  .form-container button[type=button],  .form-container button[type=submit]{
+color: white;
+font-size: 10px;
+margin-top: -30px;
+  }
+ 
+.title{
+font-size: 11px;
+text-decoration:none;
+}
+
+#home{
+  height: 130px;
+}
+
+.slide{
+  width: 60%;
+}
+
+.slideimages{
+  width: 100px;
+  height: 50px;
+}
+
+.subtitle{
+  font-size: 9px;
+}
+
+.gms{
+  float: left;
+  
+}
+.imagestry{
+ width: 100%;
+
+}
+
+p{
+ font-size:8px;
+}
+
+.text{
+ font-size: 5px;
+ padding-bottom:130px ;
+ 
+}
+
+#dandw{
+ width: 100%;
+ float: right;
+ margin-top: -40px;
+}
+
+#todaygame{
+ width: 100%;
+ float: left;
+ margin-top: -40px;
+}
+
+#today{
+font-size: 9px;  
+}
+
+
+#aboutus{
+  margin-top: -100px;
+  height: 180px;
+}
+
+#contuctus{
+  height: 200px;
+
+}
+
+#map{
+  width: 30%;
+}
+
+.contactform-container{
+  display: none;
+ 
+}
+#contactdetails{
+  margin-top: -100px;
+  float: left;
+  padding: 10px;
+}
+
+#btop{
+  font-size: 9px;
+  float: right;
+}
+
+#footer{
+  margin-top: 150px;
+ height:10px;
+ font-size: 8px;
+}
+  }
